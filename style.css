@@ -68,8 +68,9 @@ h2 {
   /* opacity: 0; */
 }
 
-.panel .active {
-  flex: 5;
+.panel.active {
+  flex: 0 0 30%;
+  box-shadow: 12px 9px 24px 3px #000;
 }
 
 .panel .active h2 {
