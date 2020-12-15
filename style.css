@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 * {
   box-sizing: border-box;
-  background-color: black;
+  /* background-color: black; */
+  color: white;
 }
 
 body {
@@ -9,11 +10,9 @@ body {
   margin: 0;
   height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  /* color: black; */
 }
 
 .one {
@@ -52,18 +51,11 @@ body {
   justify-content: center;
   flex: 1 1;
   transition: flex 0.7s ease-in-out;
-  padding: 20px;
-}
-
-.panel[hover] {
-  border: 2px solid #ccc;
 }
 
 h2 {
   text-align: center;
   font-size: 28px;
-  bottom: 20px;
-  left: 20px;
   margin: 0;
   opacity: 0;
 }
@@ -77,14 +69,14 @@ h2 {
   opacity: 1;
 }
 
+/* Arrange panels vertically */
 @media (max-width: 680px) {
   .container {
-    /* width: 80vw; */
-    height: 20vh;
+    height: 90vh;
     flex-direction: column;
-    width: 100vh;
   }
   .panel {
     width: 80vw;
+    height: 10vh;
   }
 }
