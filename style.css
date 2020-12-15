@@ -35,6 +35,12 @@ body {
 .five {
   background-image: linear-gradient(135deg, yellow, green);
 }
+
+.container {
+  display: flex;
+  width: 90vw;
+}
+
 .panel {
   height: 80vh;
   border-radius: 10px;
