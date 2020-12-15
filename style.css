@@ -65,7 +65,7 @@ h2 {
   bottom: 20px;
   left: 20px;
   margin: 0;
-  /* opacity: 0; */
+  opacity: 0;
 }
 
 .panel.active {
@@ -73,7 +73,7 @@ h2 {
   box-shadow: 12px 9px 24px 3px #000;
 }
 
-.panel .active h2 {
+.panel.active h2 {
   opacity: 1;
 }
 
