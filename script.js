@@ -7,4 +7,8 @@ panels.forEach((panel) => {
   });
 });
 
-console.log("Tiny Web");
+function makeInactive() {
+  panels.forEach((panel) => {
+    panel.classList.remove("active");
+  });
+}
