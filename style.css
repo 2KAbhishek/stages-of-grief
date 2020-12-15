@@ -43,15 +43,14 @@ body {
 
 .panel {
   height: 80vh;
+  width: 10vw;
   border-radius: 10px;
+  margin: 15px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: auto 100%;
-  float: 0.5;
-  margin: 10px;
-  /* position: relative; */
+  flex: 1 1;
   transition: flex 0.7s ease-in-out;
   padding: 20px;
 }
